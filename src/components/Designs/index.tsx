@@ -1,6 +1,7 @@
 import content from "./data";
 import { motion } from "framer-motion";
 
+
 const Designs = () => {
   return (
     <motion.section
@@ -19,11 +20,13 @@ const Designs = () => {
         <div className="px-[50px] grid gap-x-2 gap-y-3 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 py-5 my-5">
           {content.map((item, index) => (
             <div className="border-2 border-onyx rounded-lg" key={index}>
+              <a href={item.url}>
               <img
                 className="rounded-lg h-[100%]"
                 src={item.image}
                 alt=""
               />
+              </a>
             </div>
           ))}
         </div>

@@ -14,6 +14,7 @@ const content = [
     paragraph:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates recusandae minus quaerat quod quos minima voluptas? Earum eveniet ullam quos, dolor officiis voluptatum, quasi totam quisquam commodi nisi libero esse?",
   },
+  
   {
     id: 2,
     image: site2,
@@ -21,13 +22,13 @@ const content = [
     paragraph:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates recusandae minus quaerat quod quos minima voluptas? Earum eveniet ullam quos, dolor officiis voluptatum, quasi totam quisquam commodi nisi libero esse?",
   },
-  {
-    id: 3,
-    image: site3,
-    title: "The Running Quail",
-    paragraph:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates recusandae minus quaerat quod quos minima voluptas? Earum eveniet ullam quos, dolor officiis voluptatum, quasi totam quisquam commodi nisi libero esse?",
-  },
+  // {
+  //   id: 3,
+  //   image: site3,
+  //   title: "The Running Quail",
+  //   paragraph:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates recusandae minus quaerat quod quos minima voluptas? Earum eveniet ullam quos, dolor officiis voluptatum, quasi totam quisquam commodi nisi libero esse?",
+  // },
   // {
   //   id: 4,
   //   image: site4,

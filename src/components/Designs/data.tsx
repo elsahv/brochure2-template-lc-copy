@@ -10,26 +10,32 @@ const content = [
   {
     id: 1,
     image: site1,
+    url: "https://laughingcoyote.dev",
   },
   {
     id: 2,
     image: site2,
+    url: "https://laughingcoyote.dev",
   },
   {
     id: 3,
     image: site3,
+    url: "https://laughingcoyote.dev",
   },
   {
     id: 4,
     image: site4,
+    url: "https://laughingcoyote.dev",
   },
   {
     id: 5,
     image: site5,
+    url: "https://laughingcoyote.dev",
   },
   {
     id: 6,
     image: site6,
+    url: "https://laughingcoyote.dev",
   },
 ];
 
