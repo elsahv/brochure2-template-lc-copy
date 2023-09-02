@@ -15,7 +15,7 @@ const Header = () => {
             Services
           </a>
         </div>
-        <button className="mb-2 py-1 px-3 text-white dropshadow-2xl bg-orange-500 md:block hidden border border-teal hover:border-parchment">
+        <button className="mb-3 py-1 px-3 text-white dropshadow-2xl bg-orange-500 md:block hidden border border-teal hover:border-parchment">
           <a href="/#contact">Contact</a>
         </button>
         {/* <Hamburger /> */}

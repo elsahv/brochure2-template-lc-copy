@@ -15,7 +15,7 @@ const Gallery = () => {
    transition={{ duration: 2.5 }}
 
 >
-      <h2 className="text-parchment drop-shadow-lg pt-[50px] flex justify-end text-2xl font-bold pr-[200px]">
+      <h2 className="text-parchment drop-shadow-lg pt-[120px] flex justify-end font-bold pr-[200px]">
         Most Recent Clients
       </h2>
       <div className="flex justify-center">
@@ -33,8 +33,8 @@ const Gallery = () => {
                 alt=""
               />
               <div className="p-2 bg-parchment rounded-b-lg">
-                <h2 className="text-lavender font-bold">{item.title}</h2>
-                <h2 className="text-lavender pb-2">{item.paragraph}</h2>
+                <h3 className="text-lavender font-bold">{item.title}</h3>
+                <p className="text-lavender pb-2">{item.paragraph}</p>
               </div>
               </a>
             </div>

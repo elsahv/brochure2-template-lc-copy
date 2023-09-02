@@ -26,9 +26,10 @@ html {
 }
  
 
-  .dropdown {
-  /* background: #fff; */
-  }
+  h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
 
   .dropdown .nav-menu {
    background: #fff;
@@ -48,7 +49,4 @@ html {
   }
 
 
-  section {
-   /* padding-top: 25px;
-   padding-bottom: 25px;  */
-  }
+ 

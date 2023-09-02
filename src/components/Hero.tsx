@@ -13,7 +13,7 @@ const Hero = () => {
           <section className="h-1/2 px-5 flex items-center">
             <div className="ml-5 px-5 pt-[250px] pl-[70px]">
               <div className="py-1 mb-1">
-                <h2 className="text-2xl font-bold">The Laughing Coyote</h2>
+                <h1 className="text-2xl font-bold">The Laughing Coyote</h1>
                 <h3 className="text-2xl font-bold">
                   Web design for small businesses and creatives
                 </h3>
