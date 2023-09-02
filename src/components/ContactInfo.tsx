@@ -26,10 +26,15 @@ const ContactInfo = () => {
           <h2 className="text-black font-bold md:text-5xl text-3xl pb-5">
             Contact
           </h2>
+          <ul>
+            <li>kfsdlfksda</li>
+            <li>sfdksdl</li>
+            <li>dfkl;sdkfap</li>
+          </ul>
           {/* <ContactForm /> */}
         </div>
       </motion.div>
-      <motion.div className="my-10 drop-shadow-lg p-5">
+      <motion.div className="my-10 drop-shadow-lg p-5 flex md:justify-end justify-center">
         <motion.img
           initial={{
             x: 400,
@@ -42,7 +47,7 @@ const ContactInfo = () => {
           viewport={{ once: true }}
           src={ContactImg}
           alt=""
-          className=""
+          className="md:w-3/4 w-full"
         />
       </motion.div>
     </motion.section>

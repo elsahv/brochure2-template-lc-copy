@@ -9,11 +9,11 @@ const Designs = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
       id="fish-gallery"
-      className="border border-t-black border-b-black dropshadow-lg py-5"
+      className=" dropshadow-lg py-[50px] pt-[180px]"
     >
       {/* //* RECENT CLIENTS*/}
 
-      <h2 className="flex justify-center text-2xl font-bold px-5">
+      <h2 className="flex justify-start text-2xl font-bold pl-[70px]">
         Endless Designs
       </h2>
       <div className="flex justify-center">

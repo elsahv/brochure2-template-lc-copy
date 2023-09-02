@@ -1,36 +1,36 @@
 // import site1 from "../../images/site1.jpg";
 import site1 from "../../assets/screenshots/site1.png";
 import site2 from "../../assets/screenshots/site2.png";
-import site3 from "../../assets/screenshots/site3.png";
-import site4 from "../../assets/screenshots/site4.png";
-import site5 from "../../assets/screenshots/site5.png";
-import site6 from "../../assets/screenshots/site6.png";
+import site3 from "../../assets/screenshots/designs/fish-expo-demo.png";
+import site4 from "../../assets/screenshots/designs/double-panel.png";
+import site5 from "../../assets/screenshots/designs/blog-right-sidebar.png";
+import site6 from "../../assets/screenshots/designs/-hero.png";
 
 const content = [
   {
     id: 1,
     image: site1,
-    url: "https://laughingcoyote.dev",
+    url: "https://lc-resume-portfolio-demo-h5tmgpd06-elsahv.vercel.app/",
   },
   {
     id: 2,
     image: site2,
-    url: "https://laughingcoyote.dev",
+    url: "https://template-left-nav-journal-layout-1.vercel.app/",
   },
   {
     id: 3,
     image: site3,
-    url: "https://laughingcoyote.dev",
+    url: "https://lc-fish-expo-demo.vercel.app/",
   },
   {
     id: 4,
     image: site4,
-    url: "https://laughingcoyote.dev",
+    url: "https://lc-double-panel-demo.vercel.app/",
   },
   {
     id: 5,
     image: site5,
-    url: "https://laughingcoyote.dev",
+    url: "https://lc-blog-right-sidebar-demo-ixh1.vercel.app/",
   },
   {
     id: 6,

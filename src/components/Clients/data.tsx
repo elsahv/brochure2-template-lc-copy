@@ -13,7 +13,8 @@ const content = [
     title: "HoveyRoofing",
     paragraph:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates recusandae minus quaerat quod quos minima voluptas? Earum eveniet ullam quos, dolor officiis voluptatum, quasi totam quisquam commodi nisi libero esse?",
-  },
+     url: "https://hoveyroofing.com"
+     },
   
   {
     id: 2,
@@ -21,7 +22,8 @@ const content = [
     title: "Generations Backflow",
     paragraph:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates recusandae minus quaerat quod quos minima voluptas? Earum eveniet ullam quos, dolor officiis voluptatum, quasi totam quisquam commodi nisi libero esse?",
-  },
+      url: "https://google.com"
+    },
   // {
   //   id: 3,
   //   image: site3,
