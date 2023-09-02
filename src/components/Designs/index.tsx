@@ -9,7 +9,7 @@ const Designs = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
       id="fish-gallery"
-      className=" dropshadow-lg py-[50px] pt-[180px]"
+      className=" dropshadow-lg py-[100px] bg-parchment border-6 border-onyx"
     >
       {/* //* RECENT CLIENTS*/}
 
@@ -17,12 +17,12 @@ const Designs = () => {
         Endless Designs
       </h2>
       <div className="flex justify-center">
-        <div className="px-[50px] grid gap-x-2 gap-y-3 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 py-5 my-5">
+        <div className="bg-orange-400 border-black border-y-2 mx-1 grid gap-1 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 my-5">
           {content.map((item, index) => (
-            <div className="border-2 border-onyx rounded-lg" key={index}>
+            <div className="border-4 border-onyx" key={index}>
               <a href={item.url}>
               <img
-                className="rounded-lg h-[100%]"
+                className="h-[100%] border-1 border-black"
                 src={item.image}
                 alt=""
               />

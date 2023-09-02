@@ -8,7 +8,7 @@ const Hero = () => {
       transition={{ delay: 0.1, duration: 0.5 }}
       whileInView="show"
     >
-      <div id="hero" className="pt-[120px]">
+      <div id="hero" className="pt-[120px] bg-parchment">
         <div className="grid md:grid-cols-2 grid-cols-1 h-screen">
           <section className="h-1/2 px-5 flex items-center">
             <div className="ml-5 px-5 pt-[250px] pl-[70px]">
@@ -25,7 +25,7 @@ const Hero = () => {
                 custom website fits your business, personality, goals... and you
                 alone.
               </p>
-              <button className="border border-black bg-teal px-2 py-1 text-white dropshadow-md">
+              <button className="dropshadow-lg bg-teal px-2 py-1 text-white dropshadow-md">
                 button cta
               </button>
             </div>

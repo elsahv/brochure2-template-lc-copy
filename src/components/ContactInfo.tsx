@@ -3,12 +3,10 @@ import { motion } from "framer-motion";
 
 const ContactInfo = () => {
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 2.5 }}
+    <section
+  
       className=" h-screen flex 2xl:flex-row flex-col justify-center
-      items-center"
+      items-center bg-parchment"
     >
       <motion.div
         initial={{
@@ -50,7 +48,7 @@ const ContactInfo = () => {
           className="md:w-3/4 w-full"
         />
       </motion.div>
-    </motion.section>
+    </section>
   );
 };
 

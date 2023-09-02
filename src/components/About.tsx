@@ -3,14 +3,12 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 2.5 }}
-      className="2xl:h-screen h-[100%] pt-[50px] pb-[250px]"
+    <section
+   
+      className="2xl:h-screen h-[100%] pt-[50px] pb-[250px] bg-parchment"
       id="about"
     >
-      <div className="flex 2xl:flex-row flex-col justify-center text-onyx">
+      <div className="py-5 flex 2xl:flex-row flex-col justify-center text-onyx">
         <motion.div
           initial={{
             x: -200,
@@ -39,7 +37,7 @@ const About = () => {
             in ab magni eos enim illo iusto delectus sed, unde autem!
           </p>
           <div className="flex gap-4">
-            <button className="bg-teal-700 text-white p-2 my-5 drop-shadow-lg">
+            <button className="bg-teal-700 text-white bg-teal p-2 my-5 drop-shadow-lg">
               <a href="">Here's a button!</a>
             </button>
             <button className="bg-orange-500 text-white p-2 my-5 drop-shadow-lg">
@@ -66,7 +64,7 @@ const About = () => {
           />
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 
