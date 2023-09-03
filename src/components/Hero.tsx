@@ -25,8 +25,8 @@ const Hero = () => {
                 custom website fits your business, personality, goals... and you
                 alone.
               </p>
-              <button className="dropshadow-lg bg-teal px-2 py-1 text-white dropshadow-md">
-                button cta
+              <button className="dropshadow-lg bg-teal px-2 py-1 text-orange-300 hover:text-parchment dropshadow-md">
+               Contact
               </button>
             </div>
           </section>
