@@ -1,21 +1,30 @@
-- COMPONENTS
+- TODO:
 
-  About
+1. ADD SNAP TO SECTIONS
 
-  Services
+2. DESIGNS COMP- - a. create slider
 
-  BROCHURE WEBSITES
+3. SERVICES COMP- figure out lists --IP
 
-  -COYOTE PACKAGES/ Level-
+- a. use checkmark list format??
 
-  - 1. The Growing Pup- template small brochure single to 3 pages. 1-Hero/Cta, 2-about, 3-contact----- 1 pg/ 3 sections OR 3 pgs instead of sections
+4. Contact- add design form --IP
 
-  - 2. The Rising Carnivore- small custom site with domain setup, hosting, web design
+- a.implement functionality
 
-  - 3. The Alpha- small site with monthly maintenance w/ SUBSCRIPTION SERVICES
+5. implement FAQ comp
 
-    -4) Part of the pack-- add Social Media, Blog Content,
+Which wild animal are you??
+-COYOTE PACKAGES/ Level-
 
-  Clients/ Featured Works
+1.The Growing Pup- template small brochure single to 3 pages. 1-Hero/Cta, 2-about, 3-contact----- 1 pg/ 3 sections OR 3 pgs instead of sections
 
-  Contact
+2.The Rising Carnivore/ Omega- small custom site with domain setup, hosting, web design
+
+3.The Alpha- small site with monthly maintenance w/ SUBSCRIPTION SERVICES
+
+4.Part of the pack-- add Social Media, Blog Content,
+
+- FAQ -
+
+1. Whats with the coyotes?

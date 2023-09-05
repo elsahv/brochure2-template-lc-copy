@@ -1,20 +1,24 @@
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Clients from "./components/Clients";
-import Designs from "./components/Designs";
-import ContactInfo from "./components/ContactInfo";
+import Hero from "./components/sections/Hero";
+import About from "./components/sections/About/Index";
+import Services from "./components/sections/Services";
+import Designs from "./components/sections/Designs";
+import Contact from "./components/sections/Contact";
 import Footer from "./components/Footer";
+import FAQ from "./components/sections/FAQ";
 
 const App = () => {
   return (
     <div className="overflow-x-hidden">
-     <Header />
+     <Header />       {/* //todo: ADD SNAP TO TAILWIND*/}
      <Hero />
+
+     <Designs />         {/* //todo: ADD BACKFLOW SITE*/}
+                         {/* //? TURN INTO SLIDER ??*/}
      <About />
-     <Clients />   {/*COMBINE TOGETHER*/}     
-     <Designs />   {/*COMBINE TOGETHER*/}
-     <ContactInfo /> 
+     <Services />         
+     <FAQ />
+     <Contact /> 
      <Footer />
     </div>
   );

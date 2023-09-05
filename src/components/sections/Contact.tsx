@@ -1,4 +1,4 @@
-import ContactImg from "../assets/coyote.png";
+import ContactImg from "../../assets/coyote.png";
 import { motion } from "framer-motion";
 
 const ContactInfo = () => {
@@ -18,17 +18,18 @@ const ContactInfo = () => {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className="mr-5 md:p-5 p-1"
+        className="mr-5 md:p-5 p-1 bg text-"
       >
-        <div id="contact" className="text-onyx text-2xl">
+        <div id="contact" className="text-onyx text-2xl ">
           <h2 className="text-black font-bold md:text-5xl text-3xl pb-5">
             Contact
           </h2>
-          <ul>
-            <li>kfsdlfksda</li>
-            <li>sfdksdl</li>
-            <li>dfkl;sdkfap</li>
-          </ul>
+          <form className="flex flex-col gap-y-4">
+            <input className="pl-1 border-2 border-black" placeholder="name" />
+            <input className="pl-1 border-2 border-black" placeholder="email"/>
+            <textarea className="pl-1 border-2 border-black" placeholder="message"/>
+            <button className="bg-teal border border-black w-1/4">Send</button>
+          </form>
           {/* <ContactForm /> */}
         </div>
       </motion.div>

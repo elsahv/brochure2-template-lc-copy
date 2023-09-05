@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Coyote from "../assets/coyote.png";
+import Coyote from "../../assets/coyote.png";
 const Hero = () => {
   return (
     <motion.section
@@ -9,6 +9,8 @@ const Hero = () => {
       whileInView="show"
     >
       <div id="hero" className="pt-[120px] bg-parchment">
+
+        {/* 1 */}
         <div className="grid md:grid-cols-2 grid-cols-1 h-screen">
           <section className="h-1/2 px-5 flex items-center">
             <div className="ml-5 px-5 pt-[250px] pl-[70px]">
@@ -35,6 +37,8 @@ const Hero = () => {
             <img src={Coyote} alt="" className="w-3/4" />
           </section>
         </div>
+
+        {/* 1 */}
       </div>
     </motion.section>
   );
