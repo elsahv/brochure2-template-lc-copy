@@ -5,7 +5,7 @@ import Services from "./components/sections/Services";
 import Designs from "./components/sections/Designs";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/Footer";
-import FAQ from "./components/sections/FAQ";
+// import FAQ from "./components/sections/FAQ";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
                          {/* //? TURN INTO SLIDER ??*/}
      <About />
      <Services />         
-     <FAQ />
+     {/* <FAQ />     //todo MAKE VISIBLE AFTER CONTENT ADD   */} 
      <Contact /> 
      <Footer />
     </div>

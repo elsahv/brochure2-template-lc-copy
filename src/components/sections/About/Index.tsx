@@ -1,7 +1,7 @@
  
 import FirstSection from "./FirstSection";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
+// import SecondSection from "./SecondSection";
+// import ThirdSection from "./ThirdSection";
 
 const About = () => {
   return (
@@ -9,8 +9,8 @@ const About = () => {
       id="about"
     >
       <FirstSection />
-      <SecondSection />
-      <ThirdSection />
+  {/* <SecondSection /> //todo MAKE VISIBLE AFTER CONTENT ADD   */} 
+      {/* <ThirdSection />  //todo MAKE VISIBLE AFTER CONTENT ADD  */}
    
     </section>
   );
